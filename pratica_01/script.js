@@ -21,3 +21,20 @@ function enter2(nome){
 }
 
 
+//local storage
+
+var nome4 = '';
+if (typeof localStorage.nome4 == 'undefined'){
+    localStorage.nome4 = prompt('Digite seu nome: ');
+}
+
+nome4 = localStorage.nome3;
+
+document.getElementById('nome4').innerHTML = nome4;
+
+
+
+
+
+
+
